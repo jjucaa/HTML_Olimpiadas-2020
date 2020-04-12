@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 2560px) {
+    div {
+        width: 24%;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+    
+    #texto{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1920px) {
+    div {
+        width: 24%;
+        padding-top: 20px;
+    }
+
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+    #texto{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1280px) {
+    div {
+        width: 33%;
+        padding-top: 20px;
+    }
+
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+
+    #texto{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 850px) {
+    div {
+        width:49%;
+        padding-top: 20px;
+    }
+
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+
+    #texto{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    div {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+
+    #texto{
+        font-size: 20px;
+    }
+}
+
+#logo, #titulo {
+    position: relative;
+    width: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+
+#esporte {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+#texto {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.links{
+    position: relative;
+    width: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #home{
+    background-color: #0099ff;
+  }
+
+  #esp{
+    background-color: #b3b300;
+  }
+
+  #embaixadores{
+    background-color: #408000;
+  }
+
+  #covid{
+    background-color: #990000;
+  }
+
+  #devs {
+    background-color: #000000;
+  }
+
+#back1 {
+    background-image: linear-gradient(to right, #ff3333 , #80ccff);
+}
+
+#back2 {
+    background-image: linear-gradient(to right, #80ccff , #e6e600);
+}
+
+#back3 {
+    background-image: linear-gradient(to right, #e6e600 , #8c8c8c);
+}
+
+#back4 {
+    background-image: linear-gradient(to right, #8c8c8c , #73e600);
+}
+
+#back5 {
+    background-image: linear-gradient(to right, #73e600 , #ff3333);
+}
